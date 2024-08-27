@@ -14,7 +14,7 @@ public class Leap {
 
 	        // if year is divided by 400
 	        // then it is a leap year
-	        if (year % 400 == 0)
+	        if (year % 40 == 0)
 	          leap = true;
 	        else
 	          leap = false;
